@@ -1,4 +1,4 @@
-baseurl = "https://www.eisrnelie.be"
+baseurl = "https://www.eisernelie.be"
 languageCode = "de-de"
 title = "Eisernelie.be"
 theme = "hugo-creative-theme"
