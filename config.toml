@@ -1,0 +1,107 @@
+baseurl = "https://example.org/"
+languageCode = "de-de"
+title = "Eisernelie.be"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Eisernelie.be"
+
+		[params.navigation.links]
+			about     = "Wir"
+			services  = "Ansichten"
+			portfolio = "Projekte"
+			contact   = "Kontakt"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Nicht ohne Eisene Liebe"
+		subtitle   = "Ob Ultras, Kutten oder Hooligans – Tausende Köpenicker, Berliner und Exil-Unioner teilen eine Leidenschaft. Was sie und uns verbindet ist die eiserne Liebe zu Union."
+		buttonText = "Mehr über uns"
+
+
+	# About section
+	[params.about]
+		headline    = "Unsere Liebe, Unser Stolz, Unser Verein"
+		description = "Eiserneliebe ist ein Fan-Projekt von Unionern aus Friedrichshain. Wir wollen die wilde, herzliche und verrückte Szene um einen weiteren Beitrag bereichern."
+		# buttonText  = "Like, Subscribe, Follow!" -- geht zu den modalen
+
+
+	# Service section
+	[params.services]
+		headline = "Von Unionern für Unioner"
+
+        [[params.services.list]]
+            icon = "fa-futbol-o"
+            title = "Harte Meinungen"
+            description = "Fußball kennt viele Meinungen und wir haben auch eine."
+
+        [[params.services.list]]
+			icon = "fa-globe"
+			title = "Unglaublich Weltoffen"
+			description = "Unioner sind so verschieden wie die Berliner ! "
+
+		[[params.services.list]]
+            icon = "fa-camera"
+            title = "Tolle Eindrücke"
+            description = "Fotos, Videos, Kommentare – Wir teilen unsere Eindrücke gern und oft."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Eiserne Liebe"
+            description = "Wir lieben unseren Club und sind mit Herz bei der Sache!"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Wir haben auch 'nen Youtube Channel..."
+
+		[params.aside.button]
+			text = "Subscribe now"
+			link = "https://www.youtube.com/channel/UCssqTq_Gm0vKY6X8JRn5H9A/"
+
+	# Contact section
+	[params.contact]
+		headline = "Bleib in Kontakt!"
+		description = "Wir posten regelmäßig Updates von den Heimspielen in der Alten Försterei, aus Unioner Fan-Kneipen und von den Straßen Berlins."
+		phone = "@eiserneliebe"
+		email = "@eisernelie.be"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
