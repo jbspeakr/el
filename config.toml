@@ -41,7 +41,7 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Nicht ohne Eisene Liebe"
+		slogan     = "Nicht ohne Eiserne Liebe"
 		subtitle   = "Ob Ultras, Kutten oder Hooligans – Tausende Köpenicker, Berliner und Exil-Unioner teilen eine Leidenschaft. Was sie und uns verbindet ist die eiserne Liebe zu Union."
 		buttonText = "Mehr über uns"
 
