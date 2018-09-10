@@ -1,6 +1,6 @@
-baseurl = "https://www.eisernelie.be"
+baseurl = "https://www.eiserneliebe.de"
 languageCode = "de-de"
-title = "Eisernelie.be"
+title = "Eiserneliebe"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
@@ -29,7 +29,7 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "Eisernelie.be"
+		brand = "Eiserneliebe"
 
 		[params.navigation.links]
 			about     = "Wir"
@@ -98,7 +98,7 @@ googleAnalytics = ""
 		headline = "Bleib in Kontakt!"
 		description = "Wir posten regelmäßig Updates von den Heimspielen in der Alten Försterei, aus Unioner Fan-Kneipen und von den Straßen Berlins."
 		phone = "@eiserneliebe"
-		email = "@eisernelie.be"
+		email = "@eiserneliebe.de"
 
 	# Google Maps section
 	# [params.location]
