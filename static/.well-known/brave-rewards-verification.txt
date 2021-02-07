@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: eiserneliebe.de
+Token: 924e9cffce8b6beebf29e9cb923fb490c5c9f9f965ec2b9f1a2f3ca55a0cd213
