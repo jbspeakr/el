@@ -87,11 +87,12 @@ googleAnalytics = ""
 
     # Aside section
 	[params.aside]
-		headline = "Wir haben auch 'nen Youtube Channel..."
+		headline = "Wir haben auch 'nen Wander-Blog..."
 
 		[params.aside.button]
-			text = "Subscribe now"
-			link = "https://www.youtube.com/channel/UCssqTq_Gm0vKY6X8JRn5H9A/"
+			text = "Rucksackrebellen"
+			title = "Rucksackrebellen: Wander-Blog für Unioner"
+			link = "https://www.rucksackrebellen.de"
 
 	# Contact section
 	[params.contact]
